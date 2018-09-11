@@ -57,7 +57,6 @@ public class LoginActivity extends BaseActivity {
                         s1.append(aByte);
                     }
                     String s = new String(bytes);
-                    Log.d("KEY", "KEY: "+s1);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
