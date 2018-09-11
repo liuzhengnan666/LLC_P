@@ -22,7 +22,7 @@ public class LoginActivity extends BaseActivity {
 
     private TextView tv_register,tv_forget_password;
     private Button bt_login;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
