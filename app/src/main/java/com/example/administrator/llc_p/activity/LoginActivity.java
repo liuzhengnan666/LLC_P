@@ -57,10 +57,6 @@ public class LoginActivity extends BaseActivity {
                         s1.append(aByte);
                     }
                     String s = new String(bytes);
-//                    for( byte b : encryptByPrivateKey(str.getBytes(), key))
-//                    {
-//
-//                    }
                     Log.d("KEY", "KEY: "+s1);
                 } catch (Exception e) {
                     e.printStackTrace();
